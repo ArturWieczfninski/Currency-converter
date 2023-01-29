@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato:ital', sans-serif;
+    background-color: rgb(243, 243, 243);
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 40px;
+    line-height: 3;
+}
+
+.form__fieldset {
+    border-radius: 5px;
+    padding: 50px;
+    background-color: rgb(251, 247, 247);
+}
+
+.form__legend {
+    padding: 20px;
+    border-style: solid;
+    border-color: #6462dd;
+    border-width: 0px 0px 1px 0px;
+    box-shadow: 2px 2px 8px #000000;
+    background-color: rgba(93, 191, 129, 0.404);
+    margin: 0 auto;
+    line-height: 3;
+}
+
+.form__amout {
+    padding: 5px;
+    min-width: 100px;
+    width: 60%;
+}
+
+.form__currency {
+    padding: 5px;
+}
+
+.footer {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 300px;
+}
