@@ -2,7 +2,7 @@
 
 ## Demo
 
-[Kalkulator] https://arturwieczfninski.github.io/currencyconverter/
+[Kalkulator](https://arturwieczfninski.github.io/currencyconverter/)
 
 ![Artur](images/PictureProfile.jpg)
 
