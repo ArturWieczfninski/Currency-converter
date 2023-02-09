@@ -16,4 +16,4 @@ Kalkulator na tej stronie pozwala przeliczyć cztery waluty:
 
 W kalkulatorze należy wpisać kwotę w walucie polskiej oraz wybrać odpowiednią walutę w celu jej przeliczenia. 
 
-Strona jest prosta ale wygodna w użytkowaniu. 
+Strona jest prosta i wygodna w użytkowaniu. 
