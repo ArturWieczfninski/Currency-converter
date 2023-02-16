@@ -6,39 +6,14 @@ html {
     box-sizing: inherit;
 }
 
-
-.form__fieldset {
-    border-radius: 5px;
-    padding: 50px;
-    background-color: rgb(251, 247, 247);
-}
-
-.form__legend {
-    padding: 20px;
-    border-style: solid;
-    border-color: #6462dd;
-    border-width: 0px 0px 1px 0px;
-    box-shadow: 2px 2px 8px #000000;
-    background-color: rgba(93, 191, 129, 0.404);
-    margin: 0 auto;
+.body {
+    padding: 40px;
     line-height: 3;
-}
-
-.form__amout {
-    padding: 5px;
-    min-width: 100px;
-    width: 60%;
-}
-
-.form__currency {
-    padding: 5px;
-}
-
-.footer {
-    margin-bottom: 20px;
-    position: absolute;
-    bottom: 0px;
-    margin-left: 300px;
-    color:aliceblue;
-    
+    margin: 0 auto;
+    font-family: 'Lato:ital', sans-serif;
+    width: 1000px;
+    height: 1000px;
+    background-image: url("../images/landspace2.jpg");
+    background-size: 1500px;
+    background-repeat: no-repeat;
 }
