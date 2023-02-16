@@ -4,7 +4,6 @@
 
 [Kalkulator](https://arturwieczfninski.github.io/currencyconverter/)
 
-![Artur](images/PictureProfile.jpg)
 
 ## Opis strony internetowej
 
