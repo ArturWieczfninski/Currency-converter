@@ -1,5 +1,5 @@
 let formElement = document.querySelector(".js-form");
-let amoutElement = document.querySelector(".js-amout");
+let amountElement = document.querySelector(".js-amount");
 let currencyElement = document.querySelector(".js-currency");
 let resultElement = document.querySelector(".js-result");
 
@@ -8,27 +8,27 @@ let rateUSD = "3.41";
 let rateCHF = "4.73";
 let rateGBP = "5.39";
 
-formElement.addEventListener("submit", (even) => {
-    even.preventDefault();
+formElement.addEventListener("submit", (event) => {
+    event.preventDefault();
 
-    let amout = +amoutElement.value;
+    let amount = +amountElement.value;
     let currency = currencyElement.value;
 
     let result;
     switch (currency) {
         case "EUR":
-            result = amout / rateEUR;
+            result = amount / rateEUR;
             break;
         case "USD":
-            result = amout / rateUSD;
+            result = amount / rateUSD;
             break;
         case "CHF":
-            result = amout / rateCHF;
+            result = amount / rateCHF;
             break;
         case "GBP":
-            result = amout / rateGBP;
+            result = amount / rateGBP;
             break;
 
     }
-    resultElement.innerText = `${money.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
+    resultElement.innerText = `${amount.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
 })
