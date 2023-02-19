@@ -15,7 +15,6 @@
                 return amount / rateCHF;
             case "GBP":
                 return amount / rateGBP;
-
         }
     };
 
@@ -44,7 +43,6 @@
         const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("submit", onFormSubmit);
-
 
     };
 
