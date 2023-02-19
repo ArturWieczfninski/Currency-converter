@@ -1,18 +1,17 @@
-# Artur Wieczfniński - mój pierwszy kalkulator walut
+# Artur Wieczfniński - my first currency calculator
+## demo
 
-## Demo
+[Calculator](https://arturwieczfninski.github.io/currencyconverter/)
 
-[Kalkulator](https://arturwieczfninski.github.io/currencyconverter/)
+### Description of the website
 
+The calculator on this page allows you to convert four currencies:
 
-## Opis strony internetowej
-
-Kalkulator na tej stronie pozwala przeliczyć cztery waluty:
 1. Euro
-2. Dolar
-3. Funt brytyjski
-4. Frank szwajcarski
+2. Dollar
+3. British Pound
+4. Swiss franc
 
-W kalkulatorze należy wpisać kwotę w walucie polskiej oraz wybrać odpowiednią walutę w celu jej przeliczenia. 
+In the calculator, enter the amount in Polish currency and select the appropriate currency to convert it.
 
-Strona jest prosta i wygodna w użytkowaniu. 
+The website is simple and convenient to use.
